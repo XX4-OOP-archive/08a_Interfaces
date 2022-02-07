@@ -9,15 +9,19 @@ public class App {
         HoneyBee drone = new Drone();
         HoneyBee worker = new Worker();
 
+        Bird bird = new Bird();
+
         output(queen.doYourJob());
         output(drone.doYourJob());
         output(worker.doYourJob());
+        output(bird.doYourJob());
 
         output("-----------------");
 
         output(queen.fly());
         output(drone.fly());
         output(worker.fly());
+        output(bird.fly());
 
   
     }
